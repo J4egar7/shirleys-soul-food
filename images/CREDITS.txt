@@ -1,0 +1,7 @@
+Photography in this folder is licensed stock imagery, not AI-generated art.
+
+Sources: Unsplash (https://unsplash.com) and Pixabay (https://pixabay.com),
+both under their free-use licenses. Images were downloaded from the official
+Unsplash / Pixabay APIs and resized by the CDN on delivery.
+
+If a photo is replaced with a real photo of the cafe, update this file too.

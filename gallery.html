@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gallery — Shirley's Soul Food Cafe</title>
+<meta name="description" content="Photos of the plates, the pans and the lunch counter at Shirley's Soul Food Cafe in Toccoa, Georgia.">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="pages.css">
+</head>
+<body>
+
+<header class="site-head" id="head">
+  <div class="wrap nav">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">S</span>
+      <span class="brand-txt"><span class="brand-name">Shirley's</span><span class="brand-sub">Soul Food Cafe</span></span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="story.html">Our Story</a></li>
+      <li><a href="gallery.html" aria-current="page">Gallery</a></li>
+      <li><a href="visit.html">Visit</a></li>
+      <li><a href="order.html">Order</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a class="btn btn-ghost btn-sm" href="tel:+17062977739">(706) 297-7739</a>
+      <a class="btn btn-primary btn-sm" href="order.html">Order ahead</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="bg"><img src="images/plate.jpg" alt="A plate of fried fish and collard greens"></div>
+  <div class="wrap">
+    <p class="crumb"><a href="index.html">Home</a> / Gallery</p>
+    <span class="script">Everything we serve, up close</span>
+    <h1>The gallery</h1>
+    <p>The line, the pans, the plates and the desserts. Tap any photo to see it full size.</p>
+  </div>
+</section>
+<div class="gingham"></div>
+
+<section class="sec">
+  <div class="wrap">
+    <div class="gallery-grid">
+      <figure class="g-a" data-full="images/hero.jpg"><img src="images/hero.jpg" alt="Basket of fried chicken"><figcaption>Fried chicken, first batch</figcaption></figure>
+      <figure class="g-b" data-full="images/storefront.jpg"><img src="images/storefront.jpg" alt="Storefront on Currahee Street"><figcaption>W Currahee St</figcaption></figure>
+      <figure class="g-c" data-full="images/plate.jpg"><img src="images/plate.jpg" alt="Fish plate with greens and cornbread"><figcaption>The fish plate</figcaption></figure>
+      <figure class="g-d" data-full="images/catfish.jpg"><img src="images/catfish.jpg" alt="Fried catfish"><figcaption>Cornmeal catfish</figcaption></figure>
+      <figure class="g-e" data-full="images/porkchops.jpg"><img src="images/porkchops.jpg" alt="Pork chops on a platter"><figcaption>Pork chops</figcaption></figure>
+      <figure class="g-f" data-full="images/interior.jpg"><img src="images/interior.jpg" alt="Counter stools inside the cafe"><figcaption>The counter at noon</figcaption></figure>
+      <figure class="g-g" data-full="images/chicken.jpg"><img src="images/chicken.jpg" alt="Chicken plate with vegetables"><figcaption>Meat and three</figcaption></figure>
+      <figure class="g-c" data-full="images/cornbread.jpg"><img src="images/cornbread.jpg" alt="Cornbread with butter"><figcaption>Cornbread, warm</figcaption></figure>
+      <figure class="g-d" data-full="images/pudding.jpg"><img src="images/pudding.jpg" alt="Banana pudding cups"><figcaption>Banana pudding</figcaption></figure>
+      <figure class="g-e" data-full="images/cobbler.jpg"><img src="images/cobbler.jpg" alt="Peach cobbler in a dish"><figcaption>Peach cobbler</figcaption></figure>
+      <figure class="g-f" data-full="images/table.jpg"><img src="images/table.jpg" alt="Chicken and waffles on the table"><figcaption>Saturday special</figcaption></figure>
+      <figure class="g-g" data-full="images/tea.jpg"><img src="images/tea.jpg" alt="Sweet tea"><figcaption>Sweet tea</figcaption></figure>
+      <figure class="g-c" data-full="images/kitchen.jpg"><img src="images/kitchen.jpg" alt="The kitchen during prep"><figcaption>Morning prep</figcaption></figure>
+      <figure class="g-d" data-full="images/dessert.jpg"><img src="images/dessert.jpg" alt="Berry crumble square"><figcaption>Crumble of the day</figcaption></figure>
+      <figure class="g-e" data-full="images/plate.jpg"><img src="images/plate.jpg" alt="Greens, fish and cornbread"><figcaption>Greens and cornbread</figcaption></figure>
+    </div>
+    <p class="hint" style="margin-top:1.6rem">Photos are illustrative of the plates we serve. The line changes daily — call (706) 297-7739 to hear what's cooking.</p>
+  </div>
+</section>
+
+<section class="sec band">
+  <div class="wrap cta-band">
+    <div class="reveal">
+      <span class="script" style="color:var(--butter2)">Hungry yet?</span>
+      <h2>Come get a plate before 2.</h2>
+      <p class="lede">Lunch only, Monday through Saturday. First come, first served — and the chicken goes first.</p>
+    </div>
+    <div style="display:flex;flex-wrap:wrap;gap:.8rem">
+      <a class="btn btn-butter" href="order.html">Order ahead</a>
+      <a class="btn btn-ghost" style="color:#fff;border-color:rgba(255,255,255,.5)" href="visit.html">Hours &amp; map</a>
+    </div>
+  </div>
+</section>
+
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer">
+  <button type="button" id="lbClose" aria-label="Close">✕</button>
+  <figure style="margin:0"><img id="lbImg" src="" alt=""><figcaption id="lbCap"></figcaption></figure>
+</div>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <span class="brand-name">Shirley's Soul Food Cafe</span>
+        <p style="margin-top:.8rem">Meat-and-three lunch, cooked fresh and served cafeteria-style in Toccoa, Georgia.</p>
+      </div>
+      <div>
+        <h4>Visit</h4>
+        <ul>
+          <li>124 W Currahee St</li>
+          <li>Toccoa, GA 30577</li>
+          <li><a href="tel:+17062977739">(706) 297-7739</a></li>
+          <li><a href="mailto:Shirleycombs3@gmail.com">Shirleycombs3@gmail.com</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Hours</h4>
+        <ul>
+          <li>Mon – Sat: 11:30a – 2:00p</li>
+          <li>Sunday: Closed</li>
+          <li>Lunch only</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Pages</h4>
+        <ul>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="story.html">Our Story</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="order.html">Order ahead</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© <span id="year">2026</span> Shirley's Soul Food Cafe · Toccoa, Georgia</span>
+      <span>Photography via Unsplash &amp; Pixabay</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
